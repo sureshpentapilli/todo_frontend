@@ -1,0 +1,79 @@
+.todo{
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    position: relative;
+    background: url('../../../public/images/bg3.jpeg') no-repeat center center;
+    background-size: cover;
+    /* height: 100vh; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.top-margin{
+    margin-top: 0px !important;
+}
+
+.todo-inputs{
+    border: none;
+    outline: none;
+}
+
+.todo-inputs-div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+#textarea{
+    display: none;
+}
+
+
+.todo-card{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.todo-card-p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.card-icons{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.card-icon-head{
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+
+.card-icon-head:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+}
+
+
+.todo-update{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    position: fixed;
+    height: 80vh; 
+    background-color: blanchedalmond;
+    display: none;
+
+
+}
+.update{
+height: 100%;
+}
+

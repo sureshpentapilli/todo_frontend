@@ -1,0 +1,9 @@
+.navbar-brand{
+    color: rgb(77 0 255 / 84%);
+}
+
+.btn-nav{
+    background-color: rgb(77 0 255 / 84%);
+    border-radius: 5px;
+    color: white !important;
+}

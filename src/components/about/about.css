@@ -1,0 +1,21 @@
+.about{
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    position: relative;
+    background: url('../../../public/images/bg3.jpeg') no-repeat center center;
+    background-size: cover;
+    /* height: 100vh; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.about p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+ .about h1{
+    border-bottom: 1px solid rgba(255, 0, 0, 0.836);
+    padding: 5px;
+ }
